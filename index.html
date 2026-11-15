@@ -456,7 +456,7 @@ footer{flex-direction:column;text-align:center}
     <div class="sr" id="cs"></div></div>
   <div class="rv cl">
     <a class="cc" href="mailto:saherriaz78@gmail.com"><span>📧</span><div><small>Email</small><b>saherriaz78@gmail.com</b></div></a>
-    <a class="cc" href="tel:+923096063100"><span>📱</span><div><small>Phone</small><b>+92 309 6063100</b></div></a>
+    <a class="cc" href="tel:+923471663484"><span>📱</span><div><small>Phone</small><b>+92 309 6063100</b></div></a>
     <div class="cc"><span>📍</span><div><small>Location</small><b>Lahore, Pakistan</b></div></div>
     <div class="cc"><span>✅</span><div><small>Status</small><b style="color:var(--rose2)">Open to Opportunities</b></div></div>
   </div>
@@ -469,7 +469,7 @@ footer{flex-direction:column;text-align:center}
 const $=s=>document.querySelector(s),I=n=>`<svg class="i"><use href="#${n}"/></svg>`;
 const ic={home:'<path d="M3 11l9-8 9 8v9h-6v-6H9v6H3z"/>',user:'<circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0116 0"/>',code:'<path d="M8 7l-5 5 5 5M16 7l5 5-5 5"/>',brief:'<rect x="3" y="8" width="18" height="12"/><path d="M9 8V5h6v3"/>',grid:'<path d="M4 4h7v7H4zM13 4h7v7h-7zM4 13h7v7H4zM13 13h7v7h-7z"/>',mail:'<rect x="3" y="5" width="18" height="14"/><path d="M3 6l9 7 9-7"/>'};
 const NAV=[['hero','home','Home'],['about','user','About'],['skills','code','Skills'],['experience','brief','Work'],['projects','grid','Portfolio'],['contact','mail','Contact']];
-const SOC={li:['https://www.linkedin.com/in/saher-riaz-9241b31a0','LinkedIn'],ig:['https://www.instagram.com/saherriaz12','Instagram'],fb:['https://www.facebook.com/share/1GwPRp2eJi/','Facebook'],wa:['https://wa.me/923096063100','WhatsApp'],gh:['https://github.com/saher786-sudo','GitHub']};
+const SOC={li:['https://www.linkedin.com/in/saher-riaz-9241b31a0','LinkedIn'],ig:['https://www.instagram.com/saherriaz12','Instagram'],fb:['https://www.facebook.com/share/1GwPRp2eJi/','Facebook'],wa:['https://wa.me/923471663484','WhatsApp'],gh:['https://github.com/saher786-sudo','GitHub']};
 const soc=(k,c)=>`<a class="${c} ${k}" href="${SOC[k][0]}" target="_blank" rel="noopener" aria-label="${SOC[k][1]}" title="${SOC[k][1]}">${I(k)}</a>`;
 $('#sn').innerHTML=NAV.map(([id,i,t])=>`<a class="sb" href="#${id}"><svg class="s" viewBox="0 0 24 24">${ic[i]}</svg><em>${t}</em></a>`).join('');
 $('#ss').innerHTML=['li','gh','wa'].map(k=>soc(k,'sb')).join('');
